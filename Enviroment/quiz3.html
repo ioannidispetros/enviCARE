@@ -1,0 +1,76 @@
+<!DOTYPE html>
+<html>
+<head>
+    <title>Quiz3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/QuizStyle.css">
+</head>
+
+<body>
+
+    <div class="home-box custom-box">
+        <h3>Πόσα γνωρίζεις για το περιβάλλον;</h3>
+        <h4>Ξεκίνα με το 3ο quiz</h4>
+        <button type="button" class="btn" onclick="startQuiz3()">Ξεκίνα</button>
+        <li><a href="index.html">Επιστροφή στην Αρχική</a></li>
+    </div>
+
+
+    <div class="quiz-box custom-box hide">
+        <div class="question-number">
+
+        </div>
+        <div class="question-text">
+
+        </div>
+        <div class="option-container">
+
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn" onclick="next()">Επόμενο</button>
+        </div>
+        <div class="answers-indicator">
+
+        </div>
+    </div>
+
+    <div class="result-box custom-box hide">
+        <h1>Αποτελέσματα Quiz</h1>
+        <table>
+            <tr>
+                <td>Συνολικές Ερωτήσεις</td>
+                <td><span class="total-question"></span></td>
+            </tr>
+            <tr>
+                <td>Απαντημένες</td>
+                <td><span class="total-attempt"></span></td>
+            </tr>
+            <tr>
+                <td>Σωστές Απαντήσεις</td>
+                <td><span class="total-correct"></span></td>
+            </tr>
+            <tr>
+                <td>Λάθος Απαντήσεις</td>
+                <td><span class="total-wrong"></span></td>
+            </tr>
+            <tr>
+                <td>Πoσοστό</td>
+                <td><span class="total-percentage"></span></td>
+            </tr>
+            <tr>
+                <td>Το Σκόρ σου</td>
+                <td><span class="total-score"></span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn" onclick="tryAgainQuiz3()">Προσπάθησε Ξανά</button>
+        <button type="button" class="btn" onclick="goToHome()">Επιστροφή</button>
+    </div>
+
+
+<script src="js/question3.js"></script>
+<script src="js/app3.js"></script>
+
+</body>
+</html>
+
+

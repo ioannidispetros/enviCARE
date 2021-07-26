@@ -1,0 +1,112 @@
+/* ------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    background-color: #fff;
+    color:#626262;
+    font-family: 'Lato','Ariel',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering:optimizeSpeed;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+
+/* ------------------------------------------- */
+/* REUSABLE COMPONETS */
+/* ------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+section {padding: 80px 0;}
+
+span {
+    color:black;
+    font-size:22px;
+}
+
+.btn-organize{
+    text-decoration: none;
+    list-style-type: none;
+    color: green;
+}
+li {
+        text-decoration: none;
+    list-style-type: none;
+}
+
+/* ------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------- */
+
+
+header {
+    text-align: center;
+    height:20%;
+    margin-top: 50px;
+
+}
+
+header:after {
+    display:block;
+    height: 2px;
+    background-color:#00c700;
+    content: " ";
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* ------------------------------------------- */
+/* SECTIONS */
+/* ------------------------------------------- */
+
+
+.section-main {text-align: center;}
+
+.section-organization {
+    margin-top: 100px;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/* ------------------------------------------- */
+/* IMAGES */
+/* ------------------------------------------- */
+
+
+.wwf-image {
+    width: 70%;
+}
+
+.arktouros-image {
+    margin-left: 20%;
+}
+
+.fysi-image {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.viotopos-image {
+    margin-left: 25%;
+}
+
+.oikologiki-image {
+    margin-left: 25%;
+}

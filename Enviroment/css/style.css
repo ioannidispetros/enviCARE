@@ -1,0 +1,387 @@
+/* ------------------------------------------- */
+/* BASIC SETUP */
+/* ------------------------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    background-color: #fff;
+    color:#626262;
+    font-family: 'Lato','Ariel',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering:optimizeSpeed;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+
+/* ------------------------------------------- */
+/* REUSABLE COMPONETS */
+/* ------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+section {padding: 80px 0;}
+
+span {
+    color:green;
+    font-size:16px;
+}
+
+
+/* ------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------- */
+
+
+header {
+    background-image: linear-gradient(rgba(56, 56, 56, 0.7),rgba(0,0,0,0.7)),url(img/Enviroment-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/* ------------------------------------------- */
+/* NAVIGATIONS */
+/* ------------------------------------------- */
+
+
+.main-nav {
+    display: none;
+    background-color:#ffffff;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    word-spacing:150px;
+    letter-spacing:10%;
+    padding-bottom:20px;
+    padding-top: 15px;
+}
+
+.main-nav li {display: inline;}
+
+.main-nav li a {
+    font-family: lato;
+    color: #00c900;
+    text-decoration: none;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #00c900 ;
+}
+
+
+.logo {
+    height: 70px;
+    float: left;
+    width: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -18px;
+}
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+
+.sticky .main-nav {margin-top: 18px;}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    color: #00c100;
+    padding: 15px 0;
+
+}
+
+/* ------------------------------------------- */
+/* HEADINGS */
+/* ------------------------------------------- */
+
+
+.enviCARE-cont:after {
+    display:block;
+    height: 2px;
+    background-color:#00c700;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h4:after {
+    display:block;
+    height: 2px;
+    background-color:#acacac;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+.first-text {
+    color: #c1c1c1;
+    text-align: center;
+    float: inherit;
+    margin-top: 40%;
+}
+
+h1,h3 {font-weight: 100;}
+
+
+
+h4 {
+    margin-top: 10%;
+    color:#68be96;
+    text-align: center;
+
+}
+
+.enviCARE {
+    text-align: center;
+    margin-top:100px;
+}
+
+.enviCARE-cont {
+    text-align: center;
+    font-weight: 200;
+    color:#009d00;
+    font-family:cursive;
+}
+
+
+/* ------------------------------------------- */
+/* IMAGES */
+/* ------------------------------------------- */
+
+
+
+
+.recycling-mistakes-image-1,
+.recycling-mistakes-image-2,
+.air-pollution-image,
+.water-pollution-image {
+    width: 80%;
+    float: left;
+    margin-left: -20px;
+    margin-top: 100px;
+    height: 330px;
+}
+
+
+
+.ecosystem-image {
+    width: 80%;
+    float: left;
+    margin-top: 100px;
+}
+
+.ecosystem-video {
+    width: 100%;
+    height: 25%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
+/* ------------------------------------------- */
+/* PARAGRAPHS */
+/* ------------------------------------------- */
+
+
+.recycling-par,
+.air-pollution-par,
+.ecosystem-par,
+.water-pollution-par {
+    margin-top: 180px;
+    text-align: center;
+    color: black;
+    font-family: Ariel;
+    font-size: 18px;
+}
+
+
+/* ------------------------------------------- */
+/* SECTIONS */
+/* ------------------------------------------- */
+
+
+.section-main {text-align: center;}
+
+.section-articles {
+    margin-top: 200px;
+    background-color: #eaeaea;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+
+/* ------------------------------------------- */
+/* ICONS */
+/* ------------------------------------------- */
+
+
+.icon-big {
+    font-size:300%;
+    display:block;
+    color:green;
+    margin-bottom:5%;
+    margin:10% 40%;
+}
+
+
+/* ------------------------------------------- */
+/* BUTTONS*/
+/* ------------------------------------------- */
+
+
+.btn {
+    text-decoration: none;
+    color: #8d7777;
+    display:block;
+    border-style:groove;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+.btn:link,
+.btn:visited {
+    display:block;
+    padding: 10px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn:hover,
+.btn:active{
+    border: 1px solid green;
+    color:green;
+}
+
+button{
+  display: none;
+}
+
+
+/* ------------------------------------------- */
+/* FOOTER
+/* ------------------------------------------- */
+
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float:left;
+}
+
+.social-icons {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-icons li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.social-icons li a:link,
+.footer-nav li a:visited,
+.social-icons li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:visited {
+    font-size: 170%;
+}
+
+.ion-social-facebook,
+.ion-social-googleplus,
+.ion-social-instagram,
+.ion-social-twitter {
+    transition: color 0.2s;
+}
+
+footer p {
+    color:#888;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+
+/* ------------------------------------------- */
+/* FORM
+/* ------------------------------------------- */
+
+
+.contact-form {
+    width: 60%;
+    margin:0 auto;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+
+.form-heading {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
